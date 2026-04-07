@@ -72,6 +72,7 @@ public class FormValidationApp extends Application {
         primaryStage.show();
     }
 
+    // Main method
     public static void main(String[] args) {
         launch(args);
     }
