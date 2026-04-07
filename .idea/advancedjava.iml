@@ -10,5 +10,6 @@
     <orderEntry type="library" name="mysql-connector-j-9.6.0" level="project" />
     <orderEntry type="library" name="angus-activation-2.0.2" level="project" />
     <orderEntry type="library" name="jakarta.activation-api-2.1.4" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
