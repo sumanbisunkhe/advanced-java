@@ -1,7 +1,6 @@
-package org.example.unit7servletandjsp;
+package unit7servletandjsp.src.main.java.org.example.unit7servletandjsp;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+
 import java.io.IOException;
 import java.sql.*;
 

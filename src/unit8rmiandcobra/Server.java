@@ -1,0 +1,19 @@
+package unit8rmiandcobra;
+
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+public class Server {
+    public static void main(String[] args) {
+        try {
+            CalculatorImpl obj = new CalculatorImpl();
+
+            Registry registry = LocateRegistry.createRegistry(1099);
+            registry.rebind("CalculatorService", obj);
+
+            System.out.println("RMI Calculator Server is running...");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
